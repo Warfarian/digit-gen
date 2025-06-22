@@ -146,6 +146,7 @@ def main():
     takes the digit label (0-9) as input, allowing it to generate specific digits on demand.
     """)
     
+    st.info("👉 Use the sidebar to select a digit and generate new samples!", icon="⚙️")
     # Load model
     model, device = load_model()
     
